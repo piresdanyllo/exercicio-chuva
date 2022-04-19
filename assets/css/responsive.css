@@ -1,0 +1,276 @@
+/* Responsividade */
+
+@media (max-width:768px) {
+    .container-main {
+        width: 548px;
+    }
+
+    header {
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .title-header {
+        text-align: center;
+    }
+
+    .title-header h2 {
+        font-size: 18px;
+    }
+
+    .user-info--message {
+        top: 150px;
+        right: 178px;
+    }
+
+    main {
+        max-width: 548px;
+    }
+
+    .title-download-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    .title-download-main h2 {
+        width: 548px;
+        text-align: center;
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .video-detail-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .video {
+        max-width: 548px;
+        padding: 10px;
+    }
+
+    .video iframe {
+        width: 500px;
+        height: 300px;
+        margin-right: 0;
+    }
+
+    .info-video--top p {
+        font-size: 16px;
+    }
+
+    .info-video--bottom {
+        bottom: 40%;
+    }
+
+    .info-video--avatar {
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+    }
+
+    .info-video--author p:first-of-type {
+        font-size: 22px;
+    }
+
+    .info-video--author p {
+        font-size: 16px;
+    }
+
+    .detail-main {
+        margin-top: 30px;
+    }
+
+    #resume-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resume-title,
+    #resume-text--expand,
+    #resume-text--condensed {
+        width: 400px;
+    }
+
+    #discussions-container {
+        width: 548px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .discussions-title,
+    #topics,
+    #topic,
+    #discussions,
+    #create-topic,
+    #topic-sended,
+    .topic-sended,
+    .feedback {
+        width: 400px;
+    }
+
+    #create-topic form,
+    textarea {
+        width: 350px;
+    }
+
+    #topic,
+    #create-topic,
+    #topic-sended,
+    .topic-sended {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #create-topic {
+        height: 100%;
+    }
+
+    .topic-title {
+        font-size: 14px;
+    }
+
+    .topic-desc {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    form label {
+        font-size: 12px;
+    }
+
+    input[type='text'] {
+        width: 350px;
+        padding-left: 5px;
+    }
+
+    .bar-type-text-send {
+        width: 350px;
+        bottom: 0;
+    }
+
+    .edit-topic {
+        left: 15%;
+    }
+
+    .waiting-feedback,
+    #answer-1,
+    #answer-2,
+    #answer-3,
+    #answer-4 {
+        width: 350px;
+    }
+
+    .feedback {
+        width: 350px;
+        height: 100%;
+        padding-bottom: 15px;
+    }
+
+    .feedback-author {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    #text-footer {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .container-nav {
+        width: 100%;
+        height: 524px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-title {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .container-main {
+        width: 100%;
+        left: 0;
+        top: 524px;
+    }
+
+    .user-info--message {
+        right: 120px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .title-download-main h2 {
+        width: 100%;
+    }
+
+    .video {
+        width: 300px;
+    }
+
+    .video iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .info-video--top p {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .info-video--avatar {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+    .info-video--author p {
+        line-height: normal;
+    }
+
+    .info-video--bottom {
+        bottom: 55%;
+    }
+
+    .info-video--author p:first-of-type {
+        font-size: 12px;
+    }
+
+    .info-video--author p {
+        font-size: 10px;
+    }
+
+    #discussions-container {
+        width: 100%;
+    }
+}
